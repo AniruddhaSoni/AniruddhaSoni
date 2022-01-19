@@ -16,9 +16,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.3s ease;
 }
 .social img {
   height: 36px;
+}
+.social:hover {
+  z-index: 9;
+  -webkit-box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
+  -moz-box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
+  box-shadow: 0 8px 18.5px 3px rgba(151, 151, 151, 0.4);
+  transform: scale(1.05);
 }
 .linkedin {
   background-color: #2363b6;
