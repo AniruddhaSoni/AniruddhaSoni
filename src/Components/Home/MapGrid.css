@@ -1,0 +1,15 @@
+.map_avatar_container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map_avatar_container .map_avatar {
+  height: 50%;
+  aspect-ratio: 1;
+  background-color: #6cc79c80;
+  border-radius: 50%;
+  border: 3px solid #6cc79c;
+}

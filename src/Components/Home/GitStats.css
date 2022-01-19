@@ -1,0 +1,22 @@
+.gitstats_container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.gitstats {
+  height: -moz-available;
+  height: -webkit-fill-available;
+  width: -moz-available;
+  width: -webkit-fill-available;
+
+  display: flex;
+  justify-content: start;
+}
+.gitstats * {
+  outline: none;
+  border: none;
+}

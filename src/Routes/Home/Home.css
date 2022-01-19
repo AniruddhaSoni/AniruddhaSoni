@@ -1,0 +1,62 @@
+.home {
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.seven {
+  grid-area: seven;
+}
+.eight {
+  grid-area: eight;
+}
+.nine {
+  grid-area: nine;
+}
+.ten {
+  grid-area: ten;
+}
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 275px);
+  /* grid-template-rows: repeat(4, 1fr); */
+  gap: 1.5rem;
+  grid-auto-rows: 15rem;
+
+  grid-template-areas:
+    "one one two three"
+    "four five five three"
+    "six seven eight eight"
+    "six nine nine ten";
+}
+.grid {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: stretch;
+}
+.one {
+  justify-content: space-around;
+  align-items: center;
+}
+.seven {
+  background-color: transparent;
+}

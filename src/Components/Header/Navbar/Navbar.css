@@ -1,0 +1,28 @@
+.navbar {
+  /* height: fit-content; */
+  background-color: var(--light_navbar_background);
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 0.5rem;
+}
+.nav_links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav_links a {
+  padding: 0 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.nav_links li a {
+  font-weight: 400;
+}
+
+.nav_links .active a {
+  background-color: var(--light_background);
+  font-weight: 500;
+}

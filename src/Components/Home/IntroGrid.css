@@ -1,0 +1,25 @@
+.intro_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-size: 16px;
+  height: 100%;
+}
+.name {
+  font-family: "Carter One";
+  font-size: 2.5rem;
+  color: var(--name_color);
+  line-height: 2.5rem;
+}
+.button {
+  font-size: 14px;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid var(--light_gray);
+  line-height: 1rem;
+}
+.avatar {
+  height: 100%;
+  filter: var(--avatar_dropShadow);
+}

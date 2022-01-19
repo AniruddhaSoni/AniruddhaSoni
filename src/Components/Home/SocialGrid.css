@@ -1,0 +1,34 @@
+.social_grid_container {
+  height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.social {
+  background-color: white;
+  border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social img {
+  height: 36px;
+}
+.linkedin {
+  background-color: #2363b6;
+}
+.twitter {
+  background-color: #1b9ff1;
+}
+.discord {
+  background-color: #7187da;
+}
+.mail {
+  background-color: #f14134;
+}
