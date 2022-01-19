@@ -6,6 +6,7 @@ import lightMap from "../../assets/map_light.png";
 import DarkmodeGrid from "../../Components/Home/DarkmodeGrid";
 import GitStats from "../../Components/Home/GitStats";
 import SocialGrid from "../../Components/Home/SocialGrid";
+import TalkingGrid from "../../Components/Home/TalkingGrid";
 
 var map = lightMap;
 
@@ -33,8 +34,19 @@ export default function Home() {
         <div className="grid seven">
           <SocialGrid />
         </div>
-        <div className="grid eight">grid eight</div>
-        <div className="grid nine">grid nine</div>
+        <div className="grid eight">
+          <TalkingGrid
+            heading="How it started vs how it's going."
+            description="It's all started with curiosity how web works and now I am here as a
+        good web developer."
+          />
+        </div>
+        <div className="grid nine">
+          <TalkingGrid
+            heading="Let's create something."
+            description="I accept freelance jobs, colaboration offers with companies, startup and brands or if you have any idea we can build it together."
+          />
+        </div>
         <div className="grid ten">grid ten</div>
       </div>
     </section>
