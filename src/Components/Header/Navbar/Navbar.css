@@ -18,11 +18,22 @@
   align-items: center;
   border-radius: 0.5rem;
 }
+.nav_links li {
+  margin-inline: 0.2rem;
+}
+.nav_links li:first-child,
+.nav_links li:last-child {
+  margin-inline: unset;
+}
 .nav_links li a {
   font-weight: 400;
+  transition: all 0.3s ease;
+}
+.nav_links li a:hover {
+  background-color: var(--light_background);
 }
 
-.nav_links .active a {
+.nav_links .active {
   background-color: var(--light_background);
   font-weight: 500;
 }
