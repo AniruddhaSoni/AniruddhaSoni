@@ -67,7 +67,7 @@ export default function About() {
         </div>
       </div>
 
-      <AboutComponent heading="Certs and Achievements" json={null} />
+      {/* <AboutComponent heading="Certs and Achievements" json={null} /> */}
     </section>
   );
 }
