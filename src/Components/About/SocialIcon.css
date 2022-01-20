@@ -1,0 +1,14 @@
+.social_icon_container {
+  height: 4.625rem;
+  aspect-ratio: 1;
+  margin: 2rem 0;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_icon_container img {
+  height: 2rem;
+  aspect-ratio: 1;
+}

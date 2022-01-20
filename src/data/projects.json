@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "post": "Web Intern Developer",
+    "place": "Augnaar Technologies",
+    "time": "Apr,2021 - present",
+    "description": "I started MentAR (AugnaAR) as a web intern. I worked and learned here creation of beautiful websites and backend PHP and databases based on SQL. I also developed backend of their app (mentAr). Augnaar also gave me oppurtunity to compare my self with professionals to grow quickly on professional level both on design and developement point of view."
+  },
+  {
+    "id": 2,
+    "post": "Web Developer",
+    "place": "Freelancer",
+    "time": "Apr,2020 - present",
+    "description": "I accept freelance jobs, colaboration offers with companies, startup and brands or if you have any idea we can build it together."
+  }
+]

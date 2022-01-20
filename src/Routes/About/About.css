@@ -17,5 +17,12 @@
 }
 .about_description p {
   margin: 2rem 0;
-  line-height: 1.5rem;
+}
+.languages_container {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.languages_container img {
+  height: 4.625rem;
 }

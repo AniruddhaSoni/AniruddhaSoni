@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "post": "Web Developement Lead",
+    "place": "Google's Developer Students Club",
+    "time": "July,2021 - present",
+    "description": "I joined Google’s Developer Student Club as a web lead where I contributed in some very interested projects and organised many workshops."
+  },
+  {
+    "id": 2,
+    "post": "Core Team Member",
+    "place": "Wordsworth Club RTU, Kota",
+    "time": "Nov,2020 - present",
+    "description": "I joined as a core member in creative team where we bring ideas to exexute."
+  }
+]

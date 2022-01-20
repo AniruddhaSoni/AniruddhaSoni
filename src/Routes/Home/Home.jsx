@@ -3,12 +3,13 @@ import "./Home.css";
 import IntroGrid from "../../Components/Home/IntroGrid";
 import MapGrid from "../../Components/Home/MapGrid";
 import lightMap from "../../assets/map_light.png";
+import darkMap from "../../assets/map_dark.png";
 import DarkmodeGrid from "../../Components/Home/DarkmodeGrid";
 import GitStats from "../../Components/Home/GitStats";
 import SocialGrid from "../../Components/Home/SocialGrid";
 import TalkingGrid from "../../Components/Home/TalkingGrid";
 
-var map = lightMap;
+var map = lightMap || darkMap;
 
 export default function Home() {
   return (

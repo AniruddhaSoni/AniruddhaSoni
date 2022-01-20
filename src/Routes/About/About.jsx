@@ -2,6 +2,11 @@ import React from "react";
 import "./About.css";
 import aboutAvatar from "./../../assets/avatars/avatar_laptop.svg";
 import AboutComponent from "../../Components/About/AboutComponent";
+import projects from "./../../data/projects.json";
+import comunity from "./../../data/community.json";
+import SocialNetworks from "../../Components/About/SocialNetworks";
+import hindi from "./../../assets/hindi.svg";
+import english from "./../../assets/english.svg";
 
 export default function About() {
   return (
@@ -47,7 +52,22 @@ export default function About() {
           <p>If you need me... Write me!!</p>
         </div>
       </div>
-      <AboutComponent />
+
+      <AboutComponent heading="Experiances" json={projects} />
+
+      <AboutComponent heading="Community and Open-Source" json={comunity} />
+
+      <SocialNetworks />
+
+      <div className="languages">
+        <div className="heading">Languages</div>
+        <div className="languages_container">
+          <img src={hindi} alt="" className="language" />
+          <img src={english} alt="" className="language" />
+        </div>
+      </div>
+
+      <AboutComponent heading="Certs and Achievements" json={null} />
     </section>
   );
 }

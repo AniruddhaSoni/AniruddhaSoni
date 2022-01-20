@@ -1,0 +1,30 @@
+.detail {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.detail_icon {
+  align-self: flex-start;
+  height: 4.75rem;
+}
+.detail_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.detail_heading {
+  font-size: 1.325rem;
+  line-height: 2.25rem;
+  vertical-align: top;
+  color: var(--mid_gray);
+}
+.detail_placeTime {
+  display: flex;
+  justify-content: space-between;
+}
+.detail_placeTime span {
+  font-size: 0.8rem;
+  line-height: 3rem;
+  color: var(--light_gray);
+}

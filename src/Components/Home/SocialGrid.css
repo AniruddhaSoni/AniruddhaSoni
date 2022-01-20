@@ -19,7 +19,7 @@
   transition: all 0.3s ease;
 }
 .social img {
-  height: 36px;
+  height: 2.25rem;
 }
 .social:hover {
   z-index: 9;
@@ -34,8 +34,8 @@
 .twitter {
   background-color: #1b9ff1;
 }
-.discord {
-  background-color: #7187da;
+.github {
+  background-color: black;
 }
 .mail {
   background-color: #f14134;
