@@ -13,7 +13,8 @@ export default function AboutComponent(data) {
             post={project.post}
             place={project.place}
             time={project.time}
-            description={project.description}
+            description={project.description || null}
+            link={project.link}
           />
         );
       })}

@@ -13,8 +13,8 @@ var map = lightMap || darkMap;
 
 export default function Home() {
   return (
-    <section className="home">
-      <div className="grid_container">
+    <section className="container">
+      <div className="home_grid_container ">
         <div className="grid one">
           <IntroGrid />
         </div>

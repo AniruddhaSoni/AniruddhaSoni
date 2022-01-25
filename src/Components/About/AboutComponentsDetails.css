@@ -28,3 +28,7 @@
   line-height: 3rem;
   color: var(--light_gray);
 }
+.detail_link {
+  color: blueviolet;
+  text-decoration: underline;
+}

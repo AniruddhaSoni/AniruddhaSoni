@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "post": "Certified in javascript",
+    "place": "HackerRank",
+    "time": "Sept,2021 - present",
+    "link": "https://www.hackerrank.com/certificates/9cece789e87d"
+  },
+  {
+    "id": 2,
+    "post": "Certified in NodeJs",
+    "place": "HackerRank",
+    "time": "Sept,2021 - present",
+    "link": "https://www.hackerrank.com/certificates/df960f15a655"
+  },
+  {
+    "id": 3,
+    "post": "Certified in SQL",
+    "place": "HackerRank",
+    "time": "Sept,2021 - present",
+    "link": "https://www.hackerrank.com/certificates/01374ef5d3b3"
+  }
+]

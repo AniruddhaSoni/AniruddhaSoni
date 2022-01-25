@@ -4,6 +4,7 @@ import aboutAvatar from "./../../assets/avatars/avatar_laptop.svg";
 import AboutComponent from "../../Components/About/AboutComponent";
 import projects from "./../../data/projects.json";
 import comunity from "./../../data/community.json";
+import certs from "./../../data/certs.json";
 import SocialNetworks from "../../Components/About/SocialNetworks";
 import hindi from "./../../assets/hindi.svg";
 import english from "./../../assets/english.svg";
@@ -67,7 +68,7 @@ export default function About() {
         </div>
       </div>
 
-      {/* <AboutComponent heading="Certs and Achievements" json={null} /> */}
+      <AboutComponent heading="Certs" json={certs} />
     </section>
   );
 }

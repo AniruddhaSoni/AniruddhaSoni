@@ -1,7 +1,6 @@
-.home {
-  width: fit-content;
+.container {
+  width: 70rem;
   margin-inline: auto;
-  transform-style: preserve-3d;
 }
 
 .one {
@@ -34,11 +33,9 @@
 .ten {
   grid-area: ten;
 }
-.grid_container {
+.home_grid_container {
   display: grid;
-  width: 70rem;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(4, 1fr); */
   gap: 1.5rem;
   grid-auto-rows: 15rem;
 
@@ -47,35 +44,6 @@
     "four five five three"
     "six seven eight eight"
     "six nine nine ten";
-  transform-style: preserve-3d;
-}
-.grid {
-  background-color: white;
-  border-radius: 1.5rem;
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: stretch;
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  /* transform-style: preserve-3d; */
-}
-.grid * {
-  transition: all 0.3s ease;
-}
-.grid:hover {
-  transform-style: preserve-3d;
-  z-index: 9;
-  -webkit-box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
-  -moz-box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
-  box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
-  transform: scale(1.04);
-  transform-origin: bottom;
-}
-.grid img {
-  transition: all 0.3s ease;
-  transition-delay: 0.2s;
-}
-.grid:hover img {
-  transform: scale(1.07);
 }
 
 .one {

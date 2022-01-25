@@ -12,7 +12,15 @@ export default function AboutComponentsDetails(details) {
           <span className="detail_post">{details.place}</span>
           <span className="detail_time">{details.time}</span>
         </div>
-        <p className="detail_description">{details.description}</p>
+
+        {details.description && (
+          <p className="detail_description">{details.description}</p>
+        )}
+        {details.link && (
+          <a href={details.link} className="detail_link">
+            View Certificate
+          </a>
+        )}
       </div>
     </div>
   );
