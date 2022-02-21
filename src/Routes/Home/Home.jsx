@@ -2,12 +2,15 @@ import React from "react";
 import "./Home.css";
 import IntroGrid from "../../Components/Home/IntroGrid";
 import MapGrid from "../../Components/Home/MapGrid";
-import lightMap from "../../assets/map_light.png";
-import darkMap from "../../assets/map_dark.png";
 import DarkmodeGrid from "../../Components/Home/DarkmodeGrid";
 import GitStats from "../../Components/Home/GitStats";
 import SocialGrid from "../../Components/Home/SocialGrid";
 import TalkingGrid from "../../Components/Home/TalkingGrid";
+
+import aboutBackground from "../../assets/home/about.png";
+import lightMap from "../../assets/map_light.png";
+import darkMap from "../../assets/map_dark.png";
+import { Link } from "react-router-dom";
 
 var map = lightMap || darkMap;
 
@@ -23,7 +26,34 @@ export default function Home() {
           <MapGrid />
         </div>
 
-        <div className="grid three">nothing here</div>
+        <div
+          className="grid three background"
+          style={{ backgroundImage: `url(${aboutBackground})` }}
+        >
+          <h1 className="heading background_heading">About Me</h1>
+
+          <ul className="topic_list">
+            <li>
+              <Link to="/about" className="topics">
+                Experiences
+              </Link>
+            </li>{" "}
+            <li>
+              <Link to="/about" className="topics">
+                Social Networks
+              </Link>
+            </li>{" "}
+            <li>
+              <Link to="/about" className="topics">
+                Community And Open-Source
+              </Link>
+            </li>
+          </ul>
+
+          <Link to="/about" className=" button grid_button">
+            About
+          </Link>
+        </div>
 
         <div className="grid four">
           <DarkmodeGrid />
@@ -31,7 +61,34 @@ export default function Home() {
         <div className="grid five">
           <GitStats />
         </div>
-        <div className="grid six">grid six</div>
+        <div
+          className="grid six background"
+          style={{ backgroundImage: `url(${aboutBackground})` }}
+        >
+          <h1 className="heading background_heading">My Projects</h1>
+
+          <ul className="topic_list">
+            <li>
+              <Link to="/project" className="topics">
+                Experiences
+              </Link>
+            </li>{" "}
+            <li>
+              <Link to="/project" className="topics">
+                Social Networks
+              </Link>
+            </li>{" "}
+            <li>
+              <Link to="/project" className="topics">
+                Community And Open-Source
+              </Link>
+            </li>
+          </ul>
+
+          <Link to="/project" className=" button grid_button">
+            My Projects
+          </Link>
+        </div>
         <div className="grid seven">
           <SocialGrid />
         </div>
