@@ -1,6 +1,9 @@
 import React from "react";
 import "./Project.css";
 import avatar from "./../../assets/avatars/avatar_wink.svg";
+import ProjectGrid from "../../Components/Project/ProjectGrid";
+
+import json from "./../../data/project.json";
 
 export default function Project() {
   return (
@@ -19,12 +22,11 @@ export default function Project() {
           </div>
           <img src={avatar} alt="" className="avatar circle" />
         </div>
-        <div className="grid"></div>
-        <div className="grid"></div>
-        <div className="grid"></div>
-        <div className="grid"></div>
-        <div className="grid"></div>
-        <div className="grid"></div>
+        {json.map((data) => (
+          <div className="grid">
+            <ProjectGrid data={data}></ProjectGrid>
+          </div>
+        ))}
       </div>
     </section>
   );

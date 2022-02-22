@@ -10,6 +10,7 @@ export default function AboutComponent(data) {
       {data.json.map((project) => {
         return (
           <AboutComponentsDetails
+            key={project.id}
             post={project.post}
             place={project.place}
             time={project.time}

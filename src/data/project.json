@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Countdowm Landing Page",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 2,
+    "name": "Loop Studios Landing Page",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 3,
+    "name": "MCQ answer finder",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 4,
+    "name": "Specs Scraper",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 5,
+    "name": "GDSC Personal Portfolio",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://gdsc-rtu.github.io/personal-portfolio/"
+  },
+  {
+    "id": 6,
+    "name": "Augnaar Landing Page",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "augnaar.com/"
+  },
+  {
+    "id": 7,
+    "name": "MentAr Landing Page",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 8,
+    "name": "Javascript Art-Board",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 9,
+    "name": "Weather App",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  },
+  {
+    "id": 10,
+    "name": "React Recipe App",
+    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+  }
+]

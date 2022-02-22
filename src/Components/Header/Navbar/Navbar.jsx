@@ -18,9 +18,9 @@ export default function Navbar() {
         <li>
           <NavLink to="/skills">Skills</NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/tools">Tools</NavLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

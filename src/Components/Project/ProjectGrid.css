@@ -1,0 +1,33 @@
+.projectGrid {
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  color: var(--mid_gray);
+}
+.projectHeading {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+.projectTech {
+  margin: 20rem 0;
+}
+.projectTech li {
+  margin-top: 0.5rem;
+}
+.projectButton {
+  position: absolute;
+  bottom: -2.5rem;
+}
+.grid:hover .projectGrid .projectHeading {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+.grid:hover .projectGrid .projectTech {
+  margin: 0rem 0;
+}
+.grid:hover .projectGrid .projectButton {
+  bottom: 0rem;
+}

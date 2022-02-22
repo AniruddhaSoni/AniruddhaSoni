@@ -7,6 +7,3 @@
 .intro {
   grid-column: span 2;
 }
-.project_grid_container .grid:nth-child(4n-4) {
-  grid-column: span 2;
-}

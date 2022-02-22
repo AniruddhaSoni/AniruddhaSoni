@@ -20,7 +20,7 @@ export default function GitStats() {
         className="gitstats"
         title="gitstats"
         src={url}
-        frameborder="0"
+        frameBorder="0"
       ></iframe>
     </div>
   );

@@ -57,6 +57,7 @@ export default function SocialNetworks() {
         {socials.map((social) => {
           return (
             <SocialIcon
+              key={social.id}
               socialLink={social.socialLink}
               background={social.background}
               socialIcon={social.social_icon}
