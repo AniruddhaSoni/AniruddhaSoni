@@ -7,6 +7,7 @@ export default function TalkingGrid(details) {
     <div className="talking_grid_container">
       <div className="talking_grid_heading">{details.heading}</div>
       <div className="talking_grid_description">{details.description}</div>
+
       <Link to="/about" className="button">
         Know more...
       </Link>

@@ -1,0 +1,87 @@
+@media (max-width: 1160px) {
+  .container {
+    width: 52.5rem;
+  }
+  .home_grid_container {
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-areas:
+      "one one two"
+      "three five five"
+      "three seven six"
+      "eight eight six"
+      "four nine nine";
+  }
+  .ten {
+    display: none;
+  }
+}
+@media (max-width: 880px) {
+  .container {
+    width: 35rem;
+  }
+  .home_grid_container {
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-areas:
+      "one one"
+      "two three"
+      "six three"
+      "six seven"
+      "five five"
+      "eight eight"
+      "four ten"
+      "nine nine";
+  }
+  .ten {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 20rem;
+  }
+  .home_grid_container {
+    grid-auto-rows: 20rem;
+
+    grid-template-columns: repeat(1, 1fr);
+
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "six"
+      "seven"
+      "eight"
+      "nine"
+      "ten";
+  }
+  .ten {
+    display: flex;
+  }
+  .five {
+    display: none;
+  }
+  /* ----one---- */
+  .one {
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .one .intro {
+    margin-top: 6rem;
+  }
+  .one .intro_container {
+    position: relative;
+  }
+  .one .intro_container .button {
+    position: absolute;
+    top: 3rem;
+  }
+  .one .avatar {
+    height: 60%;
+    position: absolute;
+    right: -1rem;
+    top: 0;
+  }
+}

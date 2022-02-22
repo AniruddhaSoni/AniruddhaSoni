@@ -1,10 +1,13 @@
 .talking_grid_container {
+  position: relative;
   height: 100%;
   width: 100%;
+  /* margin-top: 2rem; */
+  z-index: 0;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .talking_grid_heading {
@@ -14,5 +17,56 @@
   color: var(--mid_gray);
 }
 .talking_grid_description {
+  margin-top: 1rem;
   line-height: 1.5rem;
+}
+.talking_grid_container .button {
+  position: absolute;
+  bottom: -4rem;
+}
+.talking_grid_container::before,
+.talking_grid_container::after {
+  content: "";
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: var(--light_background);
+  box-shadow: 0 0 10px 10px var(--light_background);
+
+  transition: all ease-in-out 0.3s;
+
+  z-index: -1;
+}
+.talking_grid_container::before {
+  top: -7rem;
+  left: -7rem;
+}
+
+.talking_grid_container::after {
+  bottom: -7rem;
+  right: -7rem;
+}
+
+.grid:hover .talking_grid_container .button {
+  bottom: 0.5rem;
+}
+
+.grid:hover .talking_grid_container {
+  background-color: var(--grid_background);
+  box-shadow: 0 0 0px 70px var(--grid_background);
+}
+
+.grid:hover .talking_grid_container::before,
+.grid:hover .talking_grid_container::after {
+  height: 150px;
+  width: 150px;
+}
+.grid:hover .talking_grid_container::before {
+  top: -50px;
+  left: -60px;
+}
+.grid:hover .talking_grid_container::after {
+  bottom: -50px;
+  right: -60px;
 }

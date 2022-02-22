@@ -13,7 +13,7 @@ export default function ProjectGrid({ data }) {
         target={`blank`}
         className="button projectButton"
       >
-        Web
+        View
       </a>
     </div>
   );

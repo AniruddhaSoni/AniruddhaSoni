@@ -1,27 +1,33 @@
 [
   {
+    "id": 11,
+    "name": "Bill Generator",
+    "tech": ["HTML5", "PHP", "BootStrap", "MySQL Database"],
+    "link": "https://github.com/GDSC-RTU/resume-builder/"
+  },
+  {
     "id": 1,
-    "name": "Countdowm Landing Page",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "name": "Resume Builder",
+    "tech": ["ReactJs", "ExpressJs", "NodeJs", "Bootstrap"],
+    "link": "https://github.com/GDSC-RTU/resume-builder/"
   },
   {
     "id": 2,
-    "name": "Loop Studios Landing Page",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "name": "MCQ answer finder",
+    "tech": ["HTML5", "TailwindCss", "Vanilla Javascript"],
+    "link": "http://mcqanswerfinder.com"
   },
   {
     "id": 3,
-    "name": "MCQ answer finder",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "name": "Loop Studios Landing Page",
+    "tech": ["HTML5", "SCSS", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/loopstudios-landing-page-main/"
   },
   {
     "id": 4,
     "name": "Specs Scraper",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "tech": ["HTML5", "CSS3", "Python"],
+    "link": "https://github.com/AniruddhaSoni/specScraping/"
   },
   {
     "id": 5,
@@ -33,30 +39,36 @@
     "id": 6,
     "name": "Augnaar Landing Page",
     "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "augnaar.com/"
+    "link": "https://augnaar.com/"
   },
   {
     "id": 7,
     "name": "MentAr Landing Page",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "tech": ["HTML5", "BootStrap", "Vanilla Javascript", "Animation On Scroll"],
+    "link": "https://mentar.co.in/"
   },
   {
     "id": 8,
     "name": "Javascript Art-Board",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "tech": ["HTML5 Canvas", "CSS3", "Vanilla Javascript"],
+    "link": "https://aniruddhasoni.github.io/artBoard/"
   },
   {
     "id": 9,
-    "name": "Weather App",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "name": "CRUD API in PHP",
+    "tech": ["PHP", "MySQL Database"],
+    "link": "https://github.com/AniruddhaSoni/restful_php_api_CRUD"
   },
   {
     "id": 10,
     "name": "React Recipe App",
-    "tech": ["HTML5", "CSS3", "Vanilla Javascript"],
-    "link": "https://aniruddhasoni.github.io/launch-countdown-timer-main/"
+    "tech": ["ReactJS", "CSS3"],
+    "link": "https://aniruddhasoni.github.io/recipeApp//"
+  },
+  {
+    "id": 12,
+    "name": "Weather App",
+    "tech": ["HTML5", "CSS3", "Vanilla JavaScript"],
+    "link": "https://aniruddhasoni.github.io/weatherApp///"
   }
 ]

@@ -12,6 +12,8 @@ import lightMap from "../../assets/map_light.png";
 import darkMap from "../../assets/map_dark.png";
 import { Link } from "react-router-dom";
 
+import "./../../css/Responsive.css";
+
 var map = lightMap || darkMap;
 
 export default function Home() {
@@ -37,12 +39,12 @@ export default function Home() {
               <Link to="/about" className="topics">
                 Experiences
               </Link>
-            </li>{" "}
+            </li>
             <li>
               <Link to="/about" className="topics">
                 Social Networks
               </Link>
-            </li>{" "}
+            </li>
             <li>
               <Link to="/about" className="topics">
                 Community And Open-Source
@@ -72,12 +74,12 @@ export default function Home() {
               <Link to="/project" className="topics">
                 Experiences
               </Link>
-            </li>{" "}
+            </li>
             <li>
               <Link to="/project" className="topics">
                 Social Networks
               </Link>
-            </li>{" "}
+            </li>
             <li>
               <Link to="/project" className="topics">
                 Community And Open-Source
@@ -92,14 +94,14 @@ export default function Home() {
         <div className="grid seven">
           <SocialGrid />
         </div>
-        <div className="grid eight">
+        <div className="grid eight background">
           <TalkingGrid
             heading="How it started vs how it's going."
             description="It's all started with curiosity how web works and now I am here as a
         good web developer."
           />
         </div>
-        <div className="grid nine">
+        <div className="grid nine background">
           <TalkingGrid
             heading="Let's create something."
             description="I accept freelance jobs, colaboration offers with companies, startup and brands or if you have any idea we can build it together."
