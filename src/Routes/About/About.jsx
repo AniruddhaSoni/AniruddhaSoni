@@ -9,6 +9,8 @@ import SocialNetworks from "../../Components/About/SocialNetworks";
 import hindi from "./../../assets/hindi.svg";
 import english from "./../../assets/english.svg";
 
+import "./../../css/Responsive.css";
+
 export default function About() {
   return (
     <section className="about_container">

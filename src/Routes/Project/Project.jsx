@@ -4,6 +4,9 @@ import avatar from "./../../assets/avatars/avatar_wink.svg";
 import ProjectGrid from "../../Components/Project/ProjectGrid";
 
 import json from "./../../data/project.json";
+import "./../../css/Responsive.css";
+
+import "./../../css/Responsive.css";
 
 export default function Project() {
   return (
