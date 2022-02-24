@@ -65,7 +65,7 @@
   }
   .close_button {
     position: absolute;
-    top: -10rem;
+    bottom: -10rem;
     background-color: var(--light_background);
     height: 75px;
     width: 75px !important;
