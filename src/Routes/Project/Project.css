@@ -4,6 +4,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 15rem;
 }
-.intro {
+.project_grid_container .project_one {
   grid-column: span 2;
 }

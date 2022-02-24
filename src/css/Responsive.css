@@ -12,6 +12,10 @@
       "eight eight six"
       "four nine nine";
   }
+  .project_grid_container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
   .ten {
     display: none;
   }
@@ -19,6 +23,7 @@
 @media (max-width: 880px) {
   /* ----------navbar------------ */
   .header {
+    padding: 0 1rem;
     position: sticky;
     z-index: 999;
   }
@@ -89,6 +94,9 @@
       "four ten"
       "nine nine";
   }
+  .project_grid_container {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
   .ten {
     display: flex;
   }
@@ -96,6 +104,11 @@
 @media (max-width: 600px) {
   .container {
     width: 20rem;
+  }
+  .project_grid_container {
+    grid-auto-rows: 20rem !important;
+
+    grid-template-columns: repeat(1, 1fr) !important;
   }
   .home_grid_container {
     grid-auto-rows: 20rem;
@@ -124,7 +137,7 @@
     flex-direction: column-reverse;
     position: relative;
   }
-  .one .intro {
+  .one .intro_container .intro {
     margin-top: 6rem;
   }
   .one .intro_container {
@@ -140,6 +153,49 @@
     right: -1rem;
     top: 0;
   }
+  /* -------one------- */
+  /* ---------projectOne--------- */
+  .project_one {
+    flex-direction: column-reverse;
+    position: relative;
+  }
+  .project_one .intro_container .intro {
+    margin-top: 6rem;
+  }
+  .project_one .intro_container {
+    position: relative;
+  }
+  .project_one .intro_container .button {
+    position: absolute;
+    top: 3rem;
+  }
+  .project_one .avatar {
+    height: 60%;
+    position: absolute;
+    right: -1rem;
+    top: 0;
+  }
+  .project_grid_container .project_one {
+    grid-column: unset !important;
+  }
+  /* ---------projectOne--------- */
+  /* -----------ProjectGrid------------ */
+  .grid .projectGrid .projectHeading,
+  .grid:hover .projectGrid .projectHeading {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 2rem !important;
+  }
+  .grid .projectGrid .projectTech,
+  .grid:hover .projectGrid .projectTech {
+    margin: 0rem 0 !important;
+  }
+  .grid .projectGrid .projectButton,
+  .grid:hover .projectGrid .projectButton {
+    bottom: 0rem !important;
+  }
+
+  /* -----------ProjectGrid------------ */
   .grid:hover {
     transform: unset;
     box-shadow: 0px 0px 5px 0px rgb(151 151 151 / 40%);
