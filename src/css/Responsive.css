@@ -114,6 +114,10 @@
   .social_icon_container {
     margin: 0 0 !important;
   }
+  .detail_placeTime span {
+    line-height: 1.5rem !important;
+    margin-bottom: 1rem;
+  }
 
   /* --------aboutsection-------- */
 }
