@@ -1,6 +1,5 @@
 .about_container {
-  width: 70rem;
-
+  width: min(90%, 70rem);
   margin-inline: auto;
 }
 .about_container > * {
