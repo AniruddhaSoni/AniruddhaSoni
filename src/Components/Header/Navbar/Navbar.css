@@ -1,6 +1,7 @@
 .navbar {
   /* height: fit-content; */
   background-color: var(--light_navbar_background);
+  backdrop-filter: blur(21px);
   display: flex;
   align-items: center;
   padding: 4px;

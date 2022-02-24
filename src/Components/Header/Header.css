@@ -1,4 +1,9 @@
+header {
+  display: flex;
+}
+
 .header {
+  flex: 1;
   margin-inline: auto;
   margin-block: 1rem;
 
@@ -19,4 +24,7 @@
 }
 .contact_button:hover {
   background-color: var(--light_navbar_background);
+}
+.navbar_button {
+  display: none;
 }

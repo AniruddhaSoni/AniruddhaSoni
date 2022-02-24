@@ -70,9 +70,7 @@
   overflow: hidden;
   flex-direction: column;
 }
-.background:hover {
-  background-position: center;
-}
+
 .background::before {
   content: "";
   position: absolute;
@@ -112,6 +110,9 @@
   color: var(--mid_gray);
 }
 
+.background:hover {
+  background-position: center;
+}
 .background:hover::before {
   background-color: #ffffff9d;
   backdrop-filter: blur(2px);

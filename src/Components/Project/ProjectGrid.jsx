@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectGrid.css";
+import "./../../css/Responsive.css";
 
 export default function ProjectGrid({ data }) {
   return (
