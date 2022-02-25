@@ -9,7 +9,7 @@ import { DarkModeContext } from "./DarkModeContext";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     if (darkMode === true) {
