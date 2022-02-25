@@ -104,7 +104,7 @@
   }
   /* --------aboutsection-------- */
   .about_container > * {
-    padding: 2rem 5% !important;
+    padding: 2% 5% !important;
   }
   .detail {
     flex-direction: column;
@@ -258,5 +258,28 @@
   }
   .talking_grid_heading {
     font-size: 2rem;
+  }
+  .grid .talking_grid_container {
+    background-color: var(--grid_background);
+    box-shadow: 0 0 0px 70px var(--grid_background);
+  }
+  .grid .talking_grid_container::before {
+    top: -50px;
+    left: -60px;
+  }
+  .grid .talking_grid_container::after {
+    bottom: -50px;
+    right: -60px;
+  }
+  .talking_grid_container::before,
+  .talking_grid_container::after {
+    height: 150px;
+    width: 150px;
+  }
+  .background::before {
+    background-color: var(--hover_background);
+  }
+  .background {
+    background-position: center;
   }
 }
