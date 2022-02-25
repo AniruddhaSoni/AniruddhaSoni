@@ -23,20 +23,18 @@
 }
 .social:hover {
   z-index: 9;
-  -webkit-box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
-  -moz-box-shadow: 0 8px 18.5px 11.5px rgba(151, 151, 151, 0.4);
-  box-shadow: 0 8px 18.5px 3px rgba(151, 151, 151, 0.4);
+  box-shadow: var(--grid_box_shadow);
   transform: scale(1.05);
 }
 .linkedin {
-  background-color: #2363b6;
+  background-color: var(--background_linkedin);
 }
 .twitter {
-  background-color: #1b9ff1;
+  background-color: var(--background_twitter);
 }
 .github {
-  background-color: black;
+  background-color: var(--background_github);
 }
 .mail {
-  background-color: #f14134;
+  background-color: var(--background_mail);
 }

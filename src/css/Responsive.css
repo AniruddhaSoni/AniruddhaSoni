@@ -20,18 +20,19 @@
     display: none;
   }
 }
-@media (max-width: 880px) {
+@media (max-width: 1000px) {
   /* ----------navbar------------ */
   .header {
     padding: 0 1rem;
     position: sticky;
     z-index: 999;
+    max-width: 95%;
   }
   .navbar_button {
     display: flex;
     flex-grow: 0;
     align-self: center;
-    padding: 0 2rem;
+    padding: 1rem;
   }
   .navbar_button i {
     font-size: 2rem;
@@ -77,7 +78,8 @@
   }
 
   /* ----------navbar------------ */
-
+}
+@media (max-width: 880px) {
   .container {
     width: 35rem;
   }

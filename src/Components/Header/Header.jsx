@@ -1,12 +1,15 @@
-// import React, { useEffect, useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo.svg";
 import { NavLink } from "react-router-dom";
 import "./Navbar/Navbar.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { DarkModeContext } from "../../DarkModeContext";
 
 export default function Header() {
   const [show, setShow] = useState(false);
+
+  const darkMode = useContext(DarkModeContext).darkMode;
+  const setDark = useContext(DarkModeContext).setDarkMode;
 
   return (
     <header className="">
@@ -14,7 +17,6 @@ export default function Header() {
         <div className="logo">
           <img src={logo} alt="" />
         </div>
-
         <nav className={show === true ? "navbar navbar_show" : "navbar"}>
           <ul className="nav_links ">
             <li
@@ -64,14 +66,27 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-      </div>
-      <div
-        className="navbar_button"
-        onClick={() => {
-          setShow(!show);
-        }}
-      >
-        <i className="material-icons">menu</i>
+        <div
+          style={{ alignSelf: "center", display: "flex", alignItems: "center" }}
+        >
+          <div
+            className={darkMode === true ? "mode dark" : "mode"}
+            onClick={() => {
+              setDark(!darkMode);
+            }}
+          >
+            <div> </div>
+          </div>
+
+          <div
+            className="navbar_button"
+            onClick={() => {
+              setShow(!show);
+            }}
+          >
+            <i className="material-icons">menu</i>
+          </div>
+        </div>
       </div>
     </header>
   );

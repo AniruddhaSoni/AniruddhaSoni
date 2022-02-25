@@ -90,7 +90,7 @@
 
 .grid_button {
   position: absolute;
-  background-color: white;
+  background-color: var(--grid_background);
   bottom: -5rem;
   left: 2rem;
   padding: 0.5rem 2rem !important;
@@ -114,7 +114,7 @@
   background-position: center;
 }
 .background:hover::before {
-  background-color: #ffffff9d;
+  background-color: var(--hover_background);
   backdrop-filter: blur(2px);
 }
 

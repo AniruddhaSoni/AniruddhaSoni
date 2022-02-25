@@ -28,3 +28,92 @@ header {
 .navbar_button {
   display: none;
 }
+
+.mode {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #000;
+  cursor: pointer;
+  text-align: center;
+}
+.mode:before {
+  content: "";
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #fff 50%, #000 50.01%);
+  border: 2px solid #fff;
+  transition: transform 0.5s ease-out;
+}
+.mode:after {
+  content: "";
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background: #fff;
+  mix-blend-mode: difference;
+}
+/* .mode div {
+  position: absolute;
+  bottom: -44px;
+  width: 76px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 18px;
+  pointer-events: none;
+} 
+.mode div:after {
+  content: "Off";
+  font-weight: 400;
+} */
+.dark {
+  background: #fff;
+}
+.dark:before {
+  border: 2px solid #000;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+/* .dark div:after {
+  content: "On";
+} */
+.scaling:after {
+  animation: scaleInner 0.5s ease forwards;
+}
+@-moz-keyframes scaleInner {
+  50% {
+    transform: scale(1.8);
+  }
+}
+@-webkit-keyframes scaleInner {
+  50% {
+    transform: scale(1.8);
+  }
+}
+@-o-keyframes scaleInner {
+  50% {
+    transform: scale(1.8);
+  }
+}
+@keyframes scaleInner {
+  50% {
+    transform: scale(1.8);
+  }
+}

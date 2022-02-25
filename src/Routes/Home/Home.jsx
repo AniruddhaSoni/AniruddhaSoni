@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Home.css";
 import IntroGrid from "../../Components/Home/IntroGrid";
 import MapGrid from "../../Components/Home/MapGrid";
@@ -13,10 +13,13 @@ import darkMap from "../../assets/map_dark.png";
 import { Link } from "react-router-dom";
 
 import "./../../css/Responsive.css";
-
-var map = lightMap || darkMap;
+import { DarkModeContext } from "../../DarkModeContext";
 
 export default function Home() {
+  const darkMode = useContext(DarkModeContext).darkMode;
+
+  var map = darkMode === false ? lightMap : darkMap;
+
   return (
     <section className="container">
       <div className="home_grid_container ">
@@ -72,17 +75,17 @@ export default function Home() {
           <ul className="topic_list">
             <li>
               <Link to="/project" className="topics">
-                Experiences
+                Bill Generator
               </Link>
             </li>
             <li>
               <Link to="/project" className="topics">
-                Social Networks
+                React Recipe App
               </Link>
             </li>
             <li>
               <Link to="/project" className="topics">
-                Community And Open-Source
+                GDSC Personal Portfolio
               </Link>
             </li>
           </ul>

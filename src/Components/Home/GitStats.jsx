@@ -1,18 +1,26 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { DarkModeContext } from "../../DarkModeContext";
 import "./GitStats.css";
-
-var theme = "light";
+// prussian
 
 export default function GitStats() {
+  const darkMode = useContext(DarkModeContext).darkMode;
+
+  const theme = darkMode === false ? "light" : "dark";
+
   const [url, setURL] = useState("");
 
   useEffect(() => {
     if (theme === "light") {
       setURL(
-        "https://github-readme-stats.vercel.app/api?username=aniruddhasoni&show_icons=true"
+        "https://github-readme-stats.vercel.app/api?username=aniruddhasoni&show_icons=true&hide_border=true"
+      );
+    } else if (theme === "dark") {
+      setURL(
+        "https://github-readme-stats.vercel.app/api?username=aniruddhasoni&show_icons=true&bg_color=2a395f&hide_border=true&text_color=fff"
       );
     }
-  }, [url]);
+  }, [theme]);
 
   return (
     <div className="gitstats_container">

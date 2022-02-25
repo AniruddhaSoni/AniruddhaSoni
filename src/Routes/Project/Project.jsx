@@ -21,7 +21,7 @@ export default function Project() {
         </div>
 
         {json.map((data) => (
-          <div className="grid">
+          <div className="grid" key={data.id}>
             <ProjectGrid data={data}></ProjectGrid>
           </div>
         ))}

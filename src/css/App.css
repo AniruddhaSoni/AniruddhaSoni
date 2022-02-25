@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Spartan:wght@100;200;300;400;450;500;600;700;800;900&display=swap");
+
 :root {
   --light_background: #f2e9e4;
   --light_navbar_background: #c9ada7;
-  --background_linkedin: #2363b6;
-  --grid_background: #fff8f4;
+  --grid_background: #fff;
+  --grid_box_shadow: 0px 0px 5px 0px rgb(151 151 151 / 40%);
+  --hover_background: #ffffff9d;
+
   --background_instagram: linear-gradient(
     225deg,
     #4f5bd5 0%,
@@ -16,6 +19,7 @@
   --background_github: #000000;
   --background_snapchat: #fefb00;
   --background_mail: #f14134;
+  --background_linkedin: #2363b6;
 
   --dark_gray: #353535;
   --mid_gray: #686868;
@@ -24,12 +28,25 @@
   --avatar_dropShadow: drop-shadow(3px 4px 8px rgba(0, 0, 0, 0.5));
   --toggle_button_color: #38364f;
 }
+.darkMode {
+  --light_background: #1a243d;
+  --grid_background: #2a395f;
+  --light_navbar_background: #2a395f;
+  --hover_background: #0000009d;
+  --mid_gray: #e2e2e2;
+  --name_color: #4276b1;
 
+  color: #fff;
+}
+.darkMode a {
+  color: white;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
+  transition: all ease 0.3s;
 }
 a {
   text-decoration: none;
@@ -55,13 +72,13 @@ footer {
   color: var(--mid_gray);
 }
 .grid {
-  background-color: white;
+  background-color: var(--grid_background);
   border-radius: 1.5rem;
   padding: 1rem 2rem;
   display: flex;
   align-items: stretch;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
-  box-shadow: 0px 0px 5px 0px rgb(151 151 151 / 40%);
+  box-shadow: var(--grid_box_shadow);
 
   overflow: hidden;
 }
@@ -80,5 +97,5 @@ footer {
   transition-delay: 0.2s;
 }
 .grid:hover img {
-  transform: scale(1.07);
+  transform: scale(1.1);
 }
