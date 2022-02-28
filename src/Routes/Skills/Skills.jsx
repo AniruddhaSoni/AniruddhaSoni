@@ -11,7 +11,7 @@ export default function Skills() {
           <IntroGrid
             avatar={avatar}
             desc={
-              "an enthusiast web developer form India. Here are my some skills and tools that I have learnt through the journey."
+              "Here are my some skills and tools that I have learnt through the journey."
             }
           />
         </div>

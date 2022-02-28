@@ -17,7 +17,7 @@ export default function GitStats() {
       );
     } else if (theme === "dark") {
       setURL(
-        "https://github-readme-stats.vercel.app/api?username=aniruddhasoni&show_icons=true&bg_color=2a395f&hide_border=true&text_color=fff"
+        "https://github-readme-stats.vercel.app/api?username=aniruddhasoni&show_icons=true&bg_color=25272c&hide_border=true&text_color=fff"
       );
     }
   }, [theme]);

@@ -50,7 +50,7 @@ var socials = [
 
 export default function SocialNetworks() {
   return (
-    <div className="social_networks">
+    <div className="social_networks" id="contact">
       <div className="heading">Social Networks</div>
 
       <div className="social_icons_container">

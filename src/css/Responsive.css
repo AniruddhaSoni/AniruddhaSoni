@@ -8,9 +8,9 @@
     grid-template-areas:
       "one one two"
       "three five five"
-      "three seven six"
+      "three four six"
       "eight eight six"
-      "four nine nine";
+      "seven nine nine";
   }
   .project_grid_container {
     grid-template-columns: repeat(3, 1fr) !important;
@@ -82,6 +82,9 @@
 @media (max-width: 880px) {
   .container {
     width: 35rem;
+  }
+  .grid {
+    padding: 1rem;
   }
   .home_grid_container {
     grid-template-columns: repeat(2, 1fr);

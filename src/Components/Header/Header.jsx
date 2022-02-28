@@ -60,7 +60,10 @@ export default function Header() {
                 setShow(!show);
               }}
             >
-              <a href="mailto:anirudh.soni007@gmail.com" className="">
+              {/* <a href="mailto:anirudh.soni007@gmail.com" className="">
+                Contact
+              </a> */}
+              <a href="/about#contact" className="">
                 Contact
               </a>
             </li>

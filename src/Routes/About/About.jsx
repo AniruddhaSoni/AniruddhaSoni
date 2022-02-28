@@ -14,7 +14,7 @@ import "./../../css/Responsive.css";
 export default function About() {
   return (
     <section className="about_container">
-      <div className="about">
+      <div className="about" id="main">
         <img src={aboutAvatar} alt="" className="about_avatar" />
         <div className="about_description">
           <p>

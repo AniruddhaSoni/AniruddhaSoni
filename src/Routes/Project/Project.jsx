@@ -14,9 +14,7 @@ export default function Project() {
         <div className="grid project_one">
           <IntroGrid
             avatar={avatar}
-            desc={
-              "an enthusiast web developer form India. Here are my some self and freelance projects."
-            }
+            desc={"Here are my some self and freelance projects."}
           />
         </div>
 

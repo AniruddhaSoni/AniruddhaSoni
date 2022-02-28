@@ -35,7 +35,7 @@
   --grid_background: #25272c;
   /* --light_navbar_background: #2a395f; */
   --light_navbar_background: #25272c;
-  --hover_background: #000000ce;
+  --hover_background: #00000085;
   --mid_gray: #e2e2e2;
   --name_color: #4276b1;
 
@@ -49,7 +49,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
-  transition: all ease 0.3s;
+  user-select: none;
 }
 a {
   text-decoration: none;
@@ -73,6 +73,9 @@ footer {
   font-size: 2rem;
   line-height: 2.5rem;
   color: var(--mid_gray);
+}
+iframe {
+  pointer-events: none;
 }
 .grid {
   background-color: var(--grid_background);

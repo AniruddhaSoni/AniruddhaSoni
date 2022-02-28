@@ -7,8 +7,10 @@ export default function IntroGrid(data) {
     <>
       <div className="intro_container">
         <div className="intro">
-          Hi. this is <span className="name">Aniruddha Soni</span>,{" "}
-          {data.desc || "an enthusiast web developer from India."}
+          Hi. this is <span className="name">Aniruddha Soni</span>, an{" "}
+          <strong>enthusiast web developer</strong> and{" "}
+          <strong>UI/UX designer</strong> from India.{" "}
+          {data.desc ? data.desc : " "}
         </div>
         <a href="/about" className="button">
           Know more...

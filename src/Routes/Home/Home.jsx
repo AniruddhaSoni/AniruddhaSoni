@@ -2,12 +2,20 @@ import React, { useContext } from "react";
 import "./Home.css";
 import IntroGrid from "../../Components/Home/IntroGrid";
 import MapGrid from "../../Components/Home/MapGrid";
-import DarkmodeGrid from "../../Components/Home/DarkmodeGrid";
+import ResumeDownload from "../../Components/Home/ResumeDownload";
 import GitStats from "../../Components/Home/GitStats";
 import SocialGrid from "../../Components/Home/SocialGrid";
 import TalkingGrid from "../../Components/Home/TalkingGrid";
 
 import aboutBackground from "../../assets/home/about.png";
+import darkaboutBackground from "./../../assets/home/about-dark.png";
+
+import projectBackground from "../../assets/home/project.png";
+import darkprojectBackground from "./../../assets/home/project-dark.png";
+
+import skillsBackground from "../../assets/home/skills.png";
+import darkskillsBackground from "./../../assets/home/skills-dark.png";
+
 import lightMap from "../../assets/map_light.png";
 import darkMap from "../../assets/map_dark.png";
 import { Link } from "react-router-dom";
@@ -20,6 +28,13 @@ export default function Home() {
 
   var map = darkMode === false ? lightMap : darkMap;
 
+  var aboutImage = darkMode === false ? aboutBackground : darkaboutBackground;
+
+  var projectImage =
+    darkMode === false ? projectBackground : darkprojectBackground;
+
+  var skillsImage =
+    darkMode === false ? skillsBackground : darkskillsBackground;
   return (
     <section className="container">
       <div className="home_grid_container ">
@@ -33,7 +48,7 @@ export default function Home() {
 
         <div
           className="grid three background"
-          style={{ backgroundImage: `url(${aboutBackground})` }}
+          style={{ backgroundImage: `url(${aboutImage})` }}
         >
           <h1 className="heading background_heading">About Me</h1>
 
@@ -61,14 +76,18 @@ export default function Home() {
         </div>
 
         <div className="grid four">
-          <DarkmodeGrid />
+          <ResumeDownload />
         </div>
-        <div className="grid five">
+        <a
+          href="https://github.com/AniruddhaSoni"
+          target="blank"
+          className="grid five"
+        >
           <GitStats />
-        </div>
+        </a>
         <div
           className="grid six background"
-          style={{ backgroundImage: `url(${aboutBackground})` }}
+          style={{ backgroundImage: `url(${projectImage})` }}
         >
           <h1 className="heading background_heading">My Projects</h1>
 
@@ -110,7 +129,10 @@ export default function Home() {
             description="I accept freelance jobs, colaboration offers with companies, startup and brands or if you have any idea we can build it together."
           />
         </div>
-        <div className="grid ten">grid ten</div>
+        <div
+          className="grid ten background"
+          style={{ backgroundImage: `url(${skillsImage})` }}
+        ></div>
       </div>
     </section>
   );
