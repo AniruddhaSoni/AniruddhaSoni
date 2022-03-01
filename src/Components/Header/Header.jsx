@@ -1,6 +1,6 @@
 import "./Header.css";
 import logo from "../../assets/logo.svg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar/Navbar.css";
 import { useContext, useState } from "react";
 import { DarkModeContext } from "../../DarkModeContext";
@@ -63,9 +63,9 @@ export default function Header() {
               {/* <a href="mailto:anirudh.soni007@gmail.com" className="">
                 Contact
               </a> */}
-              <a href="/about#contact" className="">
+              <Link href="/about#contact" className="">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

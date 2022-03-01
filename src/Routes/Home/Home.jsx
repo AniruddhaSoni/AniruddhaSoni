@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./Home.css";
 import IntroGrid from "../../Components/Home/IntroGrid";
 import MapGrid from "../../Components/Home/MapGrid";
@@ -35,6 +35,9 @@ export default function Home() {
 
   var skillsImage =
     darkMode === false ? skillsBackground : darkskillsBackground;
+
+  useEffect(() => {}, []);
+
   return (
     <section className="container">
       <div className="home_grid_container ">
@@ -54,23 +57,23 @@ export default function Home() {
 
           <ul className="topic_list">
             <li>
-              <Link to="/about" className="topics">
+              <Link to="/about#main" className="topics">
                 Experiences
               </Link>
             </li>
             <li>
-              <Link to="/about" className="topics">
+              <Link to="/about#main" className="topics">
                 Social Networks
               </Link>
             </li>
             <li>
-              <Link to="/about" className="topics">
+              <Link to="/about#main" className="topics">
                 Community And Open-Source
               </Link>
             </li>
           </ul>
 
-          <Link to="/about" className=" button grid_button">
+          <Link to="/about#main" className=" button grid_button">
             About
           </Link>
         </div>
@@ -93,23 +96,23 @@ export default function Home() {
 
           <ul className="topic_list">
             <li>
-              <Link to="/project" className="topics">
+              <Link to="/project#" className="topics">
                 Bill Generator
               </Link>
             </li>
             <li>
-              <Link to="/project" className="topics">
+              <Link to="/project#" className="topics">
                 React Recipe App
               </Link>
             </li>
             <li>
-              <Link to="/project" className="topics">
+              <Link to="/project#" className="topics">
                 GDSC Personal Portfolio
               </Link>
             </li>
           </ul>
 
-          <Link to="/project" className=" button grid_button">
+          <Link to="/project#" className=" button grid_button">
             My Projects
           </Link>
         </div>
