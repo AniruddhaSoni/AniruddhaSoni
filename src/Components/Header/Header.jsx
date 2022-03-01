@@ -63,7 +63,7 @@ export default function Header() {
               {/* <a href="mailto:anirudh.soni007@gmail.com" className="">
                 Contact
               </a> */}
-              <Link href="/about#contact" className="">
+              <Link to="/about#contact" className="">
                 Contact
               </Link>
             </li>
