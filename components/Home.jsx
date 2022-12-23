@@ -209,7 +209,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen w-full sm:w-10/12 m-auto flex items-center justify-between">
+    <div className="min-h-screen w-10/12 m-auto flex items-center justify-between">
       <div className="md:w-1/2">
         <div className="text-5xl  sm:text-6xl">
           <div className="flex gap-4">
@@ -219,7 +219,15 @@ export default function Home() {
             </div>
           </div>
           <div className="">I am, Aniruddh Soni</div>{" "}
-          <div className="">Front-End Developer</div>
+          <div className="text-accent">Front-End Developer</div>
+        </div>
+        <div className="flex gap-4">
+          <a href="" className="btn btn-secondary btn-outline mt-8">
+            Know More
+          </a>
+          <a href="" className="btn btn-primary mt-8">
+            Download Resume
+          </a>
         </div>
       </div>
       <div

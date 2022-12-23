@@ -14,9 +14,9 @@
 }
 @keyframes wave {
   from {
-    transform: rotate(0deg);
+    transform: rotate(15deg);
   }
   to {
-    transform: rotate(15deg);
+    transform: rotate(0deg);
   }
 }
