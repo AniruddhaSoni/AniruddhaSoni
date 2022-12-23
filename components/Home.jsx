@@ -234,7 +234,7 @@ export default function Home() {
         id="canvasParent"
         className="absolute inset-0 opacity-50 sm:opacity-100 sm:relative sm:h-screen flex-grow overflow-hidden -z-10"
       >
-        <canvas className="scale-150 sm:scale-100 " id="canvas"></canvas>
+        <canvas className="scale-150 sm:scale-110 " id="canvas"></canvas>
       </div>
     </div>
   );
