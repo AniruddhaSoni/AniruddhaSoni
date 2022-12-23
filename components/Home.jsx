@@ -211,16 +211,22 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full sm:w-10/12 m-auto flex items-center justify-between">
       <div className="md:w-1/2">
-        <h1 className="text-5xl sm:text-6xl">
-          Hi 👋 <br />
-          I am, Aniruddh Soni <br />A Front-End Developer
-        </h1>
+        <div className="text-5xl  sm:text-6xl">
+          <div className="flex gap-4">
+            Hi
+            <div id="wave" className="">
+              👋
+            </div>
+          </div>
+          <div className="">I am, Aniruddh Soni</div>{" "}
+          <div className="">Front-End Developer</div>
+        </div>
       </div>
       <div
         id="canvasParent"
-        className="absolute inset-0 sm:relative sm:h-screen flex-grow overflow-hidden -z-10"
+        className="absolute inset-0 opacity-50 sm:opacity-100 sm:relative sm:h-screen flex-grow overflow-hidden -z-10"
       >
-        <canvas className="" id="canvas"></canvas>
+        <canvas className="scale-150 sm:scale-100 " id="canvas"></canvas>
       </div>
     </div>
   );
