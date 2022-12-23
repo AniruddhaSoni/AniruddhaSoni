@@ -211,14 +211,14 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full sm:w-10/12 m-auto flex items-center justify-between">
       <div className="md:w-1/2">
-        <h1 className="text-6xl">
+        <h1 className="text-5xl sm:text-6xl">
           Hi 👋 <br />
           I am, Aniruddh Soni <br />A Front-End Developer
         </h1>
       </div>
       <div
         id="canvasParent"
-        className="h-screen flex-grow overflow-hidden relative"
+        className="absolute inset-0 sm:relative sm:h-screen flex-grow overflow-hidden -z-10"
       >
         <canvas className="" id="canvas"></canvas>
       </div>
