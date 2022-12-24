@@ -224,7 +224,7 @@ export default function Home() {
             <div className="text-accent">Front-End Developer</div>
           </div>
           <div className="flex gap-4">
-            <a href="" className="btn btn-secondary btn-outline mt-8">
+            <a href="#about" className="btn btn-secondary btn-outline mt-8">
               KHOW MORE
             </a>
             <a href="" className="btn btn-primary mt-8">
@@ -248,7 +248,7 @@ export default function Home() {
       >
         <a
           className="transition-all  font-thin hover:font-medium hover:scale-125 flex flex-col items-center"
-          href=""
+          href="#about"
         >
           <span className="">SCROLL DOWN</span>
           <span>
