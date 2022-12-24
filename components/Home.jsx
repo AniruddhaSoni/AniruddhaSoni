@@ -10,6 +10,7 @@ import {
 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { BsChevronDoubleDown } from "react-icons/bs";
+import { FiTwitter, FiLinkedin, FiGithub } from "react-icons/fi";
 export default function Home() {
   useEffect(() => {
     let i;
@@ -229,6 +230,29 @@ export default function Home() {
             </a>
             <a href="" className="btn btn-primary mt-8">
               VIEW RESUME
+            </a>
+          </div>
+          <div id="socialIcons" className="flex mt-6 gap-4 text-4xl">
+            <a
+              href="https://twitter.com/AnirudhSoni1012"
+              target={"blank"}
+              className="text-[#1D9BF0] opacity-75 hover:opacity-100 transition-all"
+            >
+              <FiTwitter />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aniruddha-soni-7274261b9/"
+              target={"blank"}
+              className="text-[#307CAE] opacity-75 hover:opacity-100 transition-all"
+            >
+              <FiLinkedin />
+            </a>
+            <a
+              href="https://github.com/aniruddhasoni/"
+              target={"blank"}
+              className="text-white opacity-75 hover:opacity-100 transition-all"
+            >
+              <FiGithub />
             </a>
           </div>
         </div>
