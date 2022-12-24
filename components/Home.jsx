@@ -268,7 +268,7 @@ export default function Home() {
       </div>
       <div
         id="scrollBtn"
-        className="absolute bottom-20 lg:bottom-16 flex text-2xl w-full items-start justify-center"
+        className="absolute bottom-16 flex text-2xl w-full items-start justify-center"
       >
         <a
           className="transition-all  font-thin hover:font-medium hover:scale-125 flex flex-col items-center"
