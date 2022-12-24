@@ -9,9 +9,10 @@ import {
   WebGLRenderer,
 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-let i;
+import { BsChevronDoubleDown } from "react-icons/bs";
 export default function Home() {
   useEffect(() => {
+    let i;
     innerHeight = document.querySelector("#canvasParent").clientHeight;
     innerWidth = document.querySelector("#canvasParent").clientWidth;
 
@@ -209,32 +210,51 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen w-10/12 m-auto flex items-center justify-between">
-      <div className="md:w-1/2">
-        <div className="text-5xl  sm:text-6xl">
-          <div className="flex gap-4">
-            Hi
-            <div id="wave" className="">
-              👋
+    <div id="home">
+      <div className="h-[90vh] w-10/12 m-auto flex items-center justify-between">
+        <div className="md:w-1/2">
+          <div className="text-5xl  sm:text-6xl">
+            <div className="flex gap-4">
+              Hi
+              <div id="wave" className="">
+                👋
+              </div>
             </div>
+            <div className="">I am, Aniruddh Soni</div>{" "}
+            <div className="text-accent">Front-End Developer</div>
           </div>
-          <div className="">I am, Aniruddh Soni</div>{" "}
-          <div className="text-accent">Front-End Developer</div>
+          <div className="flex gap-4">
+            <a href="" className="btn btn-secondary btn-outline mt-8">
+              KHOW MORE
+            </a>
+            <a href="" className="btn btn-primary mt-8">
+              VIEW RESUME
+            </a>
+          </div>
         </div>
-        <div className="flex gap-4">
-          <a href="" className="btn btn-secondary btn-outline mt-8">
-            Know More
-          </a>
-          <a href="" className="btn btn-primary mt-8">
-            Download Resume
-          </a>
+        <div
+          id="canvasParent"
+          className="absolute inset-0 opacity-50 lg:opacity-100 lg:relative lg:h-screen flex-grow overflow-hidden -z-10"
+        >
+          <canvas
+            className="sm:scale-70 lg:scale-110 scale-150 "
+            id="canvas"
+          ></canvas>
         </div>
       </div>
       <div
-        id="canvasParent"
-        className="absolute inset-0 opacity-50 sm:opacity-100 sm:relative sm:h-screen flex-grow overflow-hidden -z-10"
+        id="scrollBtn"
+        className="flex text-xl h-[10vh] w-full items-center justify-center"
       >
-        <canvas className="scale-150 sm:scale-110 " id="canvas"></canvas>
+        <a
+          className="transition-all  font-thin hover:font-medium hover:scale-125 flex flex-col items-center"
+          href=""
+        >
+          <span className="">SCROLL DOWN</span>
+          <span>
+            <BsChevronDoubleDown />
+          </span>
+        </a>
       </div>
     </div>
   );

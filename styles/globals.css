@@ -11,6 +11,13 @@
 #wave {
   transform-origin: bottom right;
   animation: wave 0.25s ease-in-out 0s 5 alternate;
+  cursor: pointer;
+}
+#wave:hover {
+  animation: wave 0.25s ease-in-out 0s infinite alternate;
+}
+#scrollBtn {
+  animation: upDown 0.5s ease-in-out 0s infinite alternate;
 }
 @keyframes wave {
   from {
@@ -18,5 +25,13 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+@keyframes upDown {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0);
   }
 }
