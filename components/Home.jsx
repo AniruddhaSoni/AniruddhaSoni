@@ -208,10 +208,78 @@ export default function Home() {
       const z = cosPhi;
       return [x, y, z];
     }
+
+    // ES6 Class
+    class TypeWriter {
+      constructor(txtElement, words, wait = 3000) {
+        this.txtElement = txtElement;
+        this.words = words;
+        this.txt = "";
+        this.wordIndex = 0;
+        this.wait = parseInt(wait, 10);
+        this.type();
+        this.isDeleting = false;
+      }
+
+      type() {
+        // Current index of word
+        const current = this.wordIndex % this.words.length;
+        // Get full text of current word
+        const fullTxt = this.words[current];
+
+        // Check if deleting
+        if (this.isDeleting) {
+          // Remove char
+          this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+          // Add char
+          this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        // Insert txt into element
+        this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+        // Initial Type Speed
+        let typeSpeed = 100;
+
+        if (this.isDeleting) {
+          typeSpeed /= 2;
+        }
+
+        // If word is complete
+        if (!this.isDeleting && this.txt === fullTxt) {
+          // Make pause at end
+          typeSpeed = this.wait;
+          // Set delete to true
+          this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === "") {
+          this.isDeleting = false;
+          // Move to next word
+          this.wordIndex++;
+          // Pause before start typing
+          typeSpeed = 500;
+        }
+
+        setTimeout(() => this.type(), typeSpeed);
+      }
+    }
+
+    // Init On DOM Load
+    // document.addEventListener("DOMContentLoaded", init);
+
+    // Init App
+    function init() {
+      const txtElement = document.querySelector(".txt-type");
+      const words = JSON.parse(txtElement.getAttribute("data-words"));
+      const wait = txtElement.getAttribute("data-wait");
+      // Init TypeWriter
+      new TypeWriter(txtElement, words, wait);
+    }
+    init();
   }, []);
 
   return (
-    <div id="home relative">
+    <div id="home" className="relative">
       <div className="h-[100vh] w-10/12 m-auto flex items-center justify-between">
         <div className="md:w-1/2">
           <div className="text-5xl  sm:text-6xl">
@@ -221,14 +289,25 @@ export default function Home() {
                 👋
               </div>
             </div>
-            <div className="">I am, Aniruddh Soni</div>{" "}
-            <div className="text-accent">Front-End Developer</div>
+            <div className="">
+              Here is,
+              <span className="font-bold">Aniruddh</span>
+            </div>
+            <div className="">
+              A{" "}
+              <span
+                id="type"
+                className="text-accent font-bold txt-type"
+                data-wait="1000"
+                data-words='["Full-Stack Developer", "UI-UX Designer", "Freelancer"]'
+              ></span>
+            </div>
           </div>
           <div className="flex gap-4">
-            <a href="#about" className="btn btn-secondary btn-outline mt-8">
+            <a href="#about" className="btn btn-secondary btn-outline mt-4">
               KHOW MORE
             </a>
-            <a href="" className="btn btn-primary mt-8">
+            <a href="" className="btn btn-primary mt-4">
               VIEW RESUME
             </a>
           </div>
