@@ -10,8 +10,8 @@ export default function Index() {
         <title>Aniruddh Soni | Portfolio</title>
       </Head>
       <Home />
-      {/* <Navbar />
-      <About /> */}
+      <Navbar />
+      <About />
     </>
   );
 }

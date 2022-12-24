@@ -234,7 +234,7 @@ export default function Home() {
         </div>
         <div
           id="canvasParent"
-          className="absolute inset-0 opacity-50 lg:opacity-100 lg:relative lg:h-screen flex-grow overflow-hidden -z-10"
+          className="absolute inset-0 opacity-70 lg:opacity-100 lg:relative lg:h-screen flex-grow overflow-hidden -z-10"
         >
           <canvas
             className="sm:scale-70 lg:scale-110 scale-150 "
