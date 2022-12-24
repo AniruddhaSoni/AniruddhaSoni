@@ -340,7 +340,7 @@ export default function Home() {
           className="absolute inset-0 opacity-70 lg:opacity-100 lg:relative lg:h-screen flex-grow overflow-hidden -z-10"
         >
           <canvas
-            className="sm:scale-70 lg:scale-110 scale-150 "
+            className="sm:scale-70 lg:scale-110 scale-130 "
             id="canvas"
           ></canvas>
         </div>
