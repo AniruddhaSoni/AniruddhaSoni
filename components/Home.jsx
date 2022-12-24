@@ -212,7 +212,7 @@ export default function Home() {
 
   return (
     <div id="home">
-      <div className="h-[80vh] w-10/12 m-auto flex items-center justify-between">
+      <div className="h-[90vh] w-10/12 m-auto flex items-center justify-between">
         <div className="md:w-1/2">
           <div className="text-5xl  sm:text-6xl">
             <div className="flex gap-4">
@@ -268,7 +268,7 @@ export default function Home() {
       </div>
       <div
         id="scrollBtn"
-        className="flex text-2xl h-[20vh] w-full items-center justify-center"
+        className="flex text-2xl h-[10vh] w-full items-start justify-center"
       >
         <a
           className="transition-all  font-thin hover:font-medium hover:scale-125 flex flex-col items-center"
