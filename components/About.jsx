@@ -14,12 +14,7 @@ export default function About() {
           Aniruddh Soni is my name. I&apos;m a talented developer from Rajasthan
           who focuses on user interfaces, including rich experiences, design
           systems, and command line tools. I like to create surprises and
-          delights for others. The internet as a medium for artistic expression
-          piques my attention. Numerous possibilities are made possible by
-          improvements in hardware and local web technologies as well as by the
-          internet&apos;s shared-by-default structure. There is still plenty to
-          learn about this area, which I have thoroughly loved visiting thus
-          far.
+          delights for others.
         </p>
 
         <p className="text-lg md:text-xl lg:text-2xl mt-6">

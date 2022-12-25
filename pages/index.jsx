@@ -14,7 +14,7 @@ export default function Index() {
       <Navbar />
       <About />
       <Testimonial />
-      <footer className="w-full text-center h-16">
+      <footer className="w-full text-center h-16 flex items-center justify-center">
         &lt;/&gt; and 🖌️ with ❤ by{" "}
         <a href="" className="text-blue-400">
           Aniruddh Soni
