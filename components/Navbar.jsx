@@ -28,7 +28,9 @@ export default function Navbar() {
                 <a href="#home">HOME</a>
               </li>
               <li tabIndex={0}>
-                <a className="justify-between">ABOUT</a>
+                <a href="#about" className="justify-between">
+                  ABOUT
+                </a>
               </li>
               <li>
                 <a>RESUME</a>
@@ -54,7 +56,7 @@ mt-8ont-bold"
               <a href="#home">HOME</a>
             </li>
             <li>
-              <a>ABOUT</a>
+              <a href="#about">ABOUT</a>
             </li>
             <li>
               <a>RESUME</a>

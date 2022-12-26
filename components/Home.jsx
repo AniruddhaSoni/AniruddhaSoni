@@ -305,7 +305,7 @@ export default function Home() {
           </div>
           <div className="flex gap-4">
             <a href="#about" className="btn btn-secondary btn-outline mt-4">
-              KHOW MORE
+              HIRE ME
             </a>
             <a href="" className="btn btn-primary mt-4">
               VIEW RESUME
