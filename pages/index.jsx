@@ -7,19 +7,11 @@ import Resume from "../components/Resume";
 import Testimonial from "../components/Testimonial";
 
 export default function Index() {
-  const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
-    if (isLoading == false) {
-      document.querySelector(".loaderParent").classList.add("hidden");
-    }
-  }, [isLoading]);
+    document.querySelector(".loaderParent").classList.add("hidden");
+  }, []);
   return (
-    <div
-      onLoad={() => {
-        setIsLoading(false);
-      }}
-    >
+    <>
       <div className="loaderParent z-50 h-screen w-full fixed inset-0 bg-base-100 flex items-center justify-center">
         <span className="loader"></span>
       </div>
@@ -39,6 +31,6 @@ export default function Index() {
           Aniruddh Soni
         </a>
       </footer>
-    </div>
+    </>
   );
 }
