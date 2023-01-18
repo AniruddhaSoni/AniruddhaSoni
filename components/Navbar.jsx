@@ -33,7 +33,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a>RESUME</a>
+                <a href="#resume">RESUME</a>
               </li>
               <li>
                 <a>SKILLS</a>
@@ -59,7 +59,7 @@ mt-8ont-bold"
               <a href="#about">ABOUT</a>
             </li>
             <li>
-              <a>RESUME</a>
+              <a href="#resume">RESUME</a>
             </li>
             <li>
               <a>SKILLS</a>

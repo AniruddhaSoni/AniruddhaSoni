@@ -10,7 +10,7 @@ import {
 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import { BsChevronDoubleDown } from "react-icons/bs";
-import { FiTwitter, FiLinkedin, FiGithub } from "react-icons/fi";
+import { FiTwitter, FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 export default function Home() {
   useEffect(() => {
     let i;
@@ -304,14 +304,21 @@ export default function Home() {
             </div>
           </div>
           <div className="flex gap-4">
+            <a href="#resume" className="btn btn-primary mt-4">
+              VIEW RESUME
+            </a>
             <a href="#about" className="btn btn-secondary btn-outline mt-4">
               HIRE ME
             </a>
-            <a href="" className="btn btn-primary mt-4">
-              VIEW RESUME
-            </a>
           </div>
           <div id="socialIcons" className="flex mt-6 gap-4 text-4xl">
+            <a
+              href="mailto:anirudh.soni007@gmail.com"
+              target={"blank"}
+              className="text-rose-500 opacity-75 hover:opacity-100 transition-all"
+            >
+              <FiMail />
+            </a>
             <a
               href="https://twitter.com/AnirudhSoni1012"
               target={"blank"}

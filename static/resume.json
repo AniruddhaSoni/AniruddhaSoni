@@ -1,0 +1,29 @@
+[
+  {
+    "type": 0,
+    "time": {
+      "from": "April 2021",
+      "to": "July 2022"
+    },
+    "position": "Intern",
+    "place": "Augnaar Technologies",
+    "desc": [
+      "Build Product landing page mentar.co.in and augnaar.com with vanilla technologies HTML, Bootstrap and JavaScript",
+      "Build secure CURD (Create, Update, Read and Delete) operations using PHP and MySQL.",
+      "Used PHP and MySQL to handle back-end for user registration for the App (mentar)"
+    ]
+  },
+  {
+    "type": 0,
+    "time": {
+      "from": "March 2022",
+      "to": "Now"
+    },
+    "position": "Freelancer",
+    "place": "",
+    "desc": [
+      "In demand freelancer who developes efficient and secure apps for the clients.",
+      "Build projects based on reactJs, NextJs, Tailwind, Bootstrap, PHP, MySQL and MongoDB."
+    ]
+  }
+]

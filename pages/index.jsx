@@ -24,10 +24,13 @@ export default function Index() {
       <Testimonial
         testimonial={"“Opportunities don't happen. You create them.”"}
       />
-      {/* <Resume /> */}
+      <Resume />
       <footer className="w-full text-center h-16 flex items-center justify-center">
         &lt;/&gt; and 🖌️ with ❤ by{"   "}
-        <a href="" className="text-blue-400">
+        <a
+          href="https://www.linkedin.com/in/aniruddha-soni-7274261b9/"
+          className="text-blue-400"
+        >
           Aniruddh Soni
         </a>
       </footer>
