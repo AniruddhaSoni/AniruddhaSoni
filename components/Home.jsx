@@ -315,28 +315,28 @@ export default function Home() {
             <a
               href="mailto:anirudh.soni007@gmail.com"
               target={"blank"}
-              className="text-rose-500 opacity-75 hover:opacity-100 transition-all"
+              className="text-rose-500 opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
               <FiMail />
             </a>
             <a
               href="https://twitter.com/AnirudhSoni1012"
               target={"blank"}
-              className="text-[#1D9BF0] opacity-75 hover:opacity-100 transition-all"
+              className="text-[#1D9BF0] opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
               <FiTwitter />
             </a>
             <a
               href="https://www.linkedin.com/in/aniruddha-soni-7274261b9/"
               target={"blank"}
-              className="text-[#307CAE] opacity-75 hover:opacity-100 transition-all"
+              className="text-[#307CAE] opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
               <FiLinkedin />
             </a>
             <a
               href="https://github.com/aniruddhasoni/"
               target={"blank"}
-              className="text-white opacity-75 hover:opacity-100 transition-all"
+              className="text-white opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
               <FiGithub />
             </a>

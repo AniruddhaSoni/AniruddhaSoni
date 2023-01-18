@@ -25,5 +25,30 @@
       "In demand freelancer who developes efficient and secure apps for the clients.",
       "Build projects based on reactJs, NextJs, Tailwind, Bootstrap, PHP, MySQL and MongoDB."
     ]
+  },
+
+  {
+    "type": 1,
+    "item": "Web Lead at Google Developer Student Clubs and GFG Student Chapter RTU - Organized over 10 events."
+  },
+  {
+    "type": 1,
+    "item": "Developing website for THAR techno-management fest RTU (rtuthar.in) which is one of the biggest in India."
+  },
+  {
+    "type": 1,
+    "item": "Developed TEDxRTU (tedxrtu.com) website."
+  },
+  {
+    "type": 1,
+    "item": "SSOC'22 contributor"
+  },
+  {
+    "type": 1,
+    "item": "WOC'22 contributor"
+  },
+  {
+    "type": 1,
+    "item": "Open-Source contributor in more than 30 repositories."
   }
 ]

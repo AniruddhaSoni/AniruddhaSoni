@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Heading from "./global/Heading";
 
 export default function About() {
   return (
@@ -7,9 +8,7 @@ export default function About() {
       className="py-24 flex w-10/12 m-auto items-center md:justify-between flex-col-reverse md:flex-row lg:min-h-screen"
     >
       <div className="md:w-1/2">
-        <h1 className="text-4xl lg:text-8xl font-extrabold text-accent">
-          About
-        </h1>
+        <Heading heading="About" />
         <p className="text-lg md:text-xl lg:text-2xl mt-6">
           Hi, I am Aniruddh Soni. I&apos;m a enthusiast developer from Rajasthan
           who focuses on user interfaces, including rich experiences, design

@@ -1,13 +1,13 @@
 import ResumeInfo from "./resume/ResumeInfo";
 import resumeInfo from "../static/resume.json";
+import ResumeInfo1 from "./resume/ResumeInfo1";
+import Heading from "./global/Heading";
 
 export default function Resume() {
   return (
     <div id="resume" className="py-24 flex w-10/12 m-auto flex-col">
       <div className="flex w-full flex-wrap items-center justify-between ">
-        <h1 className="text-4xl lg:text-8xl font-extrabold text-accent">
-          Resume
-        </h1>
+        <Heading heading="Resume" />
         <a
           href="/pdfs/Aniruddha_Soni.pdf"
           download
@@ -63,15 +63,7 @@ export default function Resume() {
         </h1>
         {resumeInfo.map((info) => {
           if (info.type === 1) {
-            return (
-              <ResumeInfo
-                key={info.place}
-                time={info.time}
-                position={info.position}
-                place={info.place}
-                desc={info.desc}
-              />
-            );
+            return <ResumeInfo1 key={info.item} item={info.item} />;
           }
         })}
       </div>

@@ -25,6 +25,10 @@ export default function Index() {
         testimonial={"“Opportunities don't happen. You create them.”"}
       />
       <Resume />
+      <Testimonial
+        testimonial={"“You'll never get bored when you try something new.”"}
+      />
+
       <footer className="w-full text-center h-16 flex items-center justify-center">
         &lt;/&gt; and 🖌️ with ❤ by{"   "}
         <a
