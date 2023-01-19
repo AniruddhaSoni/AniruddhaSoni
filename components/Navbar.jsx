@@ -36,14 +36,17 @@ export default function Navbar() {
                 <a href="#resume">RESUME</a>
               </li>
               <li>
-                <a>SKILLS</a>
+                <a href="#skills">SKILLS</a>
               </li>
               <li>
-                <a>PROJECTS</a>
+                <a href="#projects">PROJECTS</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-accent normal-case text-xl">
+          <a
+            href="#home"
+            className="btn btn-ghost text-accent normal-case text-xl"
+          >
             Aniruddh Soni
           </a>
         </div>
@@ -62,15 +65,17 @@ mt-8ont-bold"
               <a href="#resume">RESUME</a>
             </li>
             <li>
-              <a>SKILLS</a>
+              <a href="#skills">SKILLS</a>
             </li>
             <li>
-              <a>PROJECTS</a>
+              <a href="#projects">PROJECTS</a>
             </li>
           </ul>
         </div>
         <div className=" navbar-end">
-          <a className="btn-accent btn btn-outline">CONTACT</a>
+          <a href="#contact" className="btn-accent btn btn-outline">
+            CONTACT
+          </a>
         </div>
       </div>
     </div>
