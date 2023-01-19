@@ -4,6 +4,11 @@ export default function Document() {
   return (
     <Html className="scroll-smooth scroll-p-16" lang="en">
       <Head>
+        {/* Google Verification Meta tag */}
+        <meta
+          name="google-site-verification"
+          content="7HEdvwdFbQSHkjAqT9azDhxCZ1uWmuaBhkgXQ3al02g"
+        />
         {/* <!-- Primary Meta Tags --> */}
         <meta
           name="title"
