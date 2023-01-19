@@ -16,7 +16,7 @@ export default function Index() {
         <span className="loader"></span>
       </div>
       <Head>
-        <title>Aniruddh Soni | Portfolio</title>
+        <title>Aniruddha Soni | Portfolio | Web Developer</title>
       </Head>
       <Home />
       <Navbar />
