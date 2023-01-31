@@ -327,14 +327,14 @@ export default function Home() {
               <FiTwitter />
             </a>
             <a
-              href="https://www.linkedin.com/in/Anirudha-soni-7274261b9/"
+              href="https://www.linkedin.com/in/Anirudh-soni-7274261b9/"
               target={"blank"}
               className="text-[#307CAE] opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
               <FiLinkedin />
             </a>
             <a
-              href="https://github.com/Anirudhasoni/"
+              href="https://github.com/Anirudhsoni/"
               target={"blank"}
               className="text-white opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >

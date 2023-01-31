@@ -28,7 +28,7 @@ export default function Document() {
         <meta property="og:url" content="https://www.Anirudhsoni.ml/" />
         <meta
           property="og:title"
-          content="Anirudha Soni | Portfolio | Web Developer"
+          content="Anirudh Soni | Portfolio | Web Developer"
         />
         <meta
           property="og:description"
@@ -41,7 +41,7 @@ export default function Document() {
         <meta property="twitter:url" content="https://www.Anirudhsoni.ml/" />
         <meta
           property="twitter:title"
-          content="Anirudha Soni | Portfolio | Web Developer"
+          content="Anirudh Soni | Portfolio | Web Developer"
         />
         <meta
           property="twitter:description"
