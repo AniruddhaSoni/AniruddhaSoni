@@ -281,8 +281,8 @@ export default function Home() {
   return (
     <div id="home" className="relative">
       <div className="h-[100vh] w-10/12 m-auto flex items-center justify-between">
-        <div className="md:w-1/2">
-          <div className="text-5xl  sm:text-6xl">
+        <div className="">
+          <div className="text-5xl sm:text-6xl lg:text-8xl">
             <div className="flex gap-4">
               Hi
               <div id="wave" className="">
@@ -344,7 +344,7 @@ export default function Home() {
         </div>
         <div
           id="canvasParent"
-          className="absolute inset-0 opacity-70 lg:opacity-100 lg:relative lg:h-screen flex-grow overflow-hidden -z-10"
+          className="absolute inset-0 opacity-70 lg:opacity-100 lg:h-screen flex-grow overflow-hidden -z-10"
         >
           <canvas
             className="sm:scale-70 lg:scale-110 scale-130 "
