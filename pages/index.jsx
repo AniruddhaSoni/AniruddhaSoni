@@ -16,7 +16,7 @@ export default function Index() {
         <span className="loader"></span>
       </div>
       <Head>
-        <title>Aniruddha Soni | Portfolio | Web Developer</title>
+        <title>Anirudha Soni | Portfolio | Web Developer</title>
       </Head>
       <Home />
       <Navbar />
@@ -32,10 +32,10 @@ export default function Index() {
       <footer className="w-full text-center h-16 flex items-center justify-center">
         &lt;/&gt; and 🖌️ with ❤ by{"   "}
         <a
-          href="https://www.linkedin.com/in/aniruddha-soni-7274261b9/"
+          href="https://www.linkedin.com/in/Anirudha-soni-7274261b9/"
           className="text-blue-400"
         >
-          Aniruddh Soni
+          Anirudh Soni
         </a>
       </footer>
     </>

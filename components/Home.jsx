@@ -291,7 +291,7 @@ export default function Home() {
             </div>
             <div className="">
               Here is,
-              <span className="font-bold">Aniruddh</span>
+              <span className="font-bold">Anirudh</span>
             </div>
             <div className="">
               A{" "}
@@ -313,7 +313,7 @@ export default function Home() {
           </div>
           <div id="socialIcons" className="flex mt-6 gap-4 text-4xl">
             <a
-              href="mailto:anirudh.soni007@gmail.com"
+              href="mailto:contact@anirudhsoni.in"
               target={"blank"}
               className="text-rose-500 opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
@@ -327,14 +327,14 @@ export default function Home() {
               <FiTwitter />
             </a>
             <a
-              href="https://www.linkedin.com/in/aniruddha-soni-7274261b9/"
+              href="https://www.linkedin.com/in/Anirudha-soni-7274261b9/"
               target={"blank"}
               className="text-[#307CAE] opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >
               <FiLinkedin />
             </a>
             <a
-              href="https://github.com/aniruddhasoni/"
+              href="https://github.com/Anirudhasoni/"
               target={"blank"}
               className="text-white opacity-75 hover:scale-125 hover:opacity-100 transition-all"
             >

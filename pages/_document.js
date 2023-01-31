@@ -12,42 +12,42 @@ export default function Document() {
         {/* <!-- Primary Meta Tags --> */}
         <meta
           name="title"
-          content="Aniruddha Soni | Portfolio | Web Developer"
+          content="Anirudh Soni | Full Stack Developer | MERN Stack Developer | LAMP Stack Developer "
         />
         <meta
           name="description"
-          content="Hi, I am Aniruddh Soni, an enthusiast developer from India who focuses on user interfaces, including rich experiences, design, and command line tools."
+          content="Hi, I am Anirudh Soni, an enthusiast developer from India who focuses on user interfaces, including rich experiences, design, and command line tools."
         />
         <meta
           name="keywords"
-          content="Anirudh , Soni, Aniruddha , Aniruddh , Web , Developer , MERN , LAMP  "
+          content="Anirudh , Soni, Anirudh Soni , Web , Developer , MERN , LAMP, Anirudh Soni Web developer "
         />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.aniruddhsoni.ml/" />
+        <meta property="og:url" content="https://www.Anirudhsoni.ml/" />
         <meta
           property="og:title"
-          content="Aniruddha Soni | Portfolio | Web Developer"
+          content="Anirudha Soni | Portfolio | Web Developer"
         />
         <meta
           property="og:description"
-          content="Hi, I am Aniruddh Soni, an enthusiast developer from India who focuses on user interfaces, including rich experiences, design, and command line tools."
+          content="Hi, I am Anirudh Soni, an enthusiast developer from India who focuses on user interfaces, including rich experiences, design, and command line tools."
         />
-        <meta property="og:image" content="/aniruddhsoni.png" />
+        <meta property="og:image" content="/Anirudhsoni.png" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.aniruddhsoni.ml/" />
+        <meta property="twitter:url" content="https://www.Anirudhsoni.ml/" />
         <meta
           property="twitter:title"
-          content="Aniruddha Soni | Portfolio | Web Developer"
+          content="Anirudha Soni | Portfolio | Web Developer"
         />
         <meta
           property="twitter:description"
-          content="Hi, I am Aniruddh Soni, an enthusiast developer from India who focuses on user interfaces, including rich experiences, design, and command line tools."
+          content="Hi, I am Anirudh Soni, an enthusiast developer from India who focuses on user interfaces, including rich experiences, design, and command line tools."
         />
-        <meta property="twitter:image" content="/aniruddhsoni.png" />
+        <meta property="twitter:image" content="/Anirudhsoni.png" />
       </Head>
       <body>
         <Main />

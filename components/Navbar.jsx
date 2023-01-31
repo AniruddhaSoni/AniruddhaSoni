@@ -47,7 +47,7 @@ export default function Navbar() {
             href="#home"
             className="btn btn-ghost text-accent normal-case text-xl"
           >
-            Aniruddh Soni
+            Anirudh Soni
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

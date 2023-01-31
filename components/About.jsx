@@ -10,7 +10,7 @@ export default function About() {
       <div className="md:w-1/2">
         <Heading heading="About" />
         <p className="text-lg md:text-xl lg:text-2xl mt-6">
-          Hi, I am Aniruddh Soni. I&apos;m a enthusiast developer from Rajasthan
+          Hi, I am Anirudh Soni. I&apos;m a enthusiast developer from Rajasthan
           who focuses on user interfaces, including rich experiences, design
           systems, and command line tools. I like to create surprises and
           delights for others.

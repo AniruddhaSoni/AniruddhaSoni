@@ -9,7 +9,7 @@ export default function Resume() {
       <div className="flex w-full flex-wrap items-center justify-between ">
         <Heading heading="Resume" />
         <a
-          href="/pdfs/Aniruddha_Soni.pdf"
+          href="/pdfs/Anirudha_Soni.pdf"
           download
           className="btn btn-primary btn-outline"
         >
