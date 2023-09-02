@@ -2,10 +2,56 @@
   {
     "type": 0,
     "time": {
+      "from": "June 2023",
+      "to": "Now"
+    },
+    "position": "Web Developer Intern",
+
+    "place": "Level Up Hubs",
+    "desc": [
+      "Build Product landing page leveluphubs.com and growthlabs.leveluphubs.com with NextJs 13, Tailwind, Daisy UI.",
+      "Build secure CURD (Create, Update, Read and Delete) operations Express and MongoDB",
+      "Used ExpressJs and Google Sheets API to handle back-end for user registration for website",
+      "Build secure authentication using NextAuth."
+    ]
+  },
+  {
+    "type": 0,
+    "time": {
+      "from": "April 2023",
+      "to": "June 2023"
+    },
+    "position": "Web Developer Intern",
+
+    "place": "FLAC Services",
+    "desc": [
+      "Build Product landing page flacservices.in with NextJs 13, Tailwind, Daisy UI.",
+      "Build secure CURD (Create, Update, Read and Delete) operations Express and MongoDB",
+      "Used ExpressJs and Google Sheets API to handle back-end for user registration for website",
+      "Build secure authentication using NextAuth."
+    ]
+  },
+  {
+    "type": 0,
+    "time": {
+      "from": "Feb 2023",
+      "to": "April 2023"
+    },
+    "position": "Web Developer Intern",
+    "place": "Karma Creations",
+    "desc": [
+      "Build Product landing page layering.app with modern tech NextJs, Firebase, Socket.io etc",
+      "Build secure authentication using NextAuth."
+    ]
+  },
+  {
+    "type": 0,
+    "time": {
       "from": "April 2021",
       "to": "July 2022"
     },
-    "position": "Intern",
+    "position": "Web Developer Intern",
+
     "place": "Augnaar Technologies",
     "desc": [
       "Build Product landing page mentar.co.in and augnaar.com with vanilla technologies HTML, Bootstrap and JavaScript",
